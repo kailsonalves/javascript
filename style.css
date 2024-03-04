@@ -57,7 +57,7 @@
                     .botao:last-child { border-radius: 0 40px 0 0;
                     }
 
-                    .botao.ativo{
+                    .ativo{
                        background-color: var(--botao-ativo);
                        border-bottom: 4px solid var(--verde);
                     }
@@ -79,5 +79,6 @@
                         text-align: center;
                     }
                     .aba-conteudo-titulo-secundario{ text-align: center;
-                        color: var(--verde); text-transform: uppercase;
+                        color: var(--verde); 
+                        text-transform: uppercase;
                     }
