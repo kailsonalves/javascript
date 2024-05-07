@@ -14,7 +14,8 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
          
-.conteudo-principal { display: flex;
+.conteudo-principal { 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,15 +24,17 @@ body {
     margin: 0 auto;
 }
 
-.titulo-principal { text-align: left;
+.titulo-principal {
+    text-align: left;
     width: 100%;
     font-size: 32px;
 }
 
 .titulo-principal span {
-    color: var(--verde); }
+    color: var(--verde); 
+}
 
-.botao { font-family: "Crakra Petch", sans-serif;
+.botao { font-family: Crakra Petch, sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco); display: flex;
     justify-content: center;
@@ -46,12 +49,10 @@ body {
 }
 
 
-
-
 .botoes { display: block;
 }
-@media screen and (min-width: 768px) { 
-    .botoes { display: flex;
+
+@media screen and (min-width: 768px) { .botoes { display: flex;
 }
 }
 
@@ -96,4 +97,27 @@ body {
 .contador {
     font-size: 20px;
     text-align: center;
+}
+
+.contador {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.contador-digito {
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero {
+  font-size: 80px;
+  margin: 0;
+}
+
+.contador-digito-texto {
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0
 }
